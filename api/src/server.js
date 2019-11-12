@@ -5,7 +5,7 @@ import routes from './routes'
 const app = express();
 
 const kafka = new Kafka({
-    clientId: 'notification-app',
+    clientId: 'admin-api',
     brokers: ['localhost:9092']
   })
 
